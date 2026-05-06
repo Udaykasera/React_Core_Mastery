@@ -47,7 +47,7 @@ export default function Refral(){
      </div>
     
 
-    <div style={{border:'2px solid black', width:'fit-content', marginLeft:'20%', marginTop:'10%'}}>
+    <div style={{border:'2px solid black', width:'fit-content', marginLeft:'20%', marginTop:'10%', marginBottom:'10%'}}>
      <h2>Stop watch "{timer}"</h2>
     <button onClick={Watch}>start</button> 
      <button onClick={Stoping}>Stop</button> 
