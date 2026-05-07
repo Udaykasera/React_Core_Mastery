@@ -1,5 +1,6 @@
 import Effect from "./useEffect_hook"
 import Refral from "./useRef_hook"
+// import Mycomponent from "./useEffect_two"
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <Refral></Refral>
       <Effect></Effect>
+      {/* <Mycomponent></Mycomponent> */}
     </>
   )
 }
