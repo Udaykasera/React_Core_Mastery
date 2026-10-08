@@ -1,3 +1,4 @@
+// import Opus from "./opus";
 function Twoknow(){
 
     const fruits = ["Apple" ,"Bananna" , "Orange"]
@@ -39,8 +40,8 @@ return (
                         <li> {Fullname(user)} and his age is{user.age}</li>
                     ))}
                 </ul>
+                    <button onClick={()=>{alert("form submmited")}}>submmit</button>
 
-    
     </>
 )
 
