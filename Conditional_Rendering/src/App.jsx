@@ -1,10 +1,15 @@
 import Showing from "./Showing";
+import Play from "./Play";
 function App() {
- 
+  
+   
 
   return (
     <>
-     <Showing></Showing>
+    
+
+      <Play/>
+     {/* <Showing></Showing> */}
     </>
   )
 }
